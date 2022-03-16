@@ -1,7 +1,44 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { SkeletonComponent } from './layout/skeleton/skeleton.component';
+import { HomeComponent } from './components/home/home/home.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {
+    path:'',
+    component: HomeComponent,
+  },
+  {
+    path:'home',
+    component: HomeComponent,
+  },
+  {
+    path:'',
+    component: SkeletonComponent,
+    children: [
+      {
+        path:'about',
+        loadChildren:()=>
+        import ('./components/about/about.module').then((m)=> m.AboutModule)
+      },
+      {
+        path:'resume',
+        loadChildren:()=>
+        import ('./components/resume/resume.module').then((m)=> m.ResumeModule)
+      },
+      {
+        path:'skills',
+        loadChildren:()=>
+        import ('./components/skills/skills.module').then((m)=> m.SkillsModule)
+      },
+      {
+        path:'works',
+        loadChildren:()=>
+        import ('./components/portfolio/portfolio.module').then((m)=> m.PortfolioModule)
+      },
+    ]
+  },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

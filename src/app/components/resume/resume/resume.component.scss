@@ -1,0 +1,65 @@
+.resume {
+  color: white;
+  background: rgba(21, 45, 53, 0.6);
+  margin: 1.25rem 3.75rem 1.25rem 3.75rem;
+  padding: 10px;
+  .line {
+    width: 200px;
+    height: 0;
+    border: 2px solid #219F94;
+  }
+  .tags {
+    color: rgba(255, 255, 255, 0.3);
+    font-family: 'La Belle Aurore';
+  }
+  .mgtagbody{
+    margin-left: 15px;
+  }
+  .mgtag {
+    margin-left: 25px;
+  }
+  .mgtagsection {
+    margin-left: 25px;
+  }
+  .content {
+    h3 {
+      font-weight: 700;
+      font-size: 26px;
+      color: white;
+      span{
+      color: #219F94;
+      }
+    }
+  }
+  .col{
+    font-size: 16px;
+    .summary {
+      color: white;
+      width: 350px;
+      height: 200px;
+      line-height: 25px;
+      text-align: justify;
+      span {
+        color: #219F94;
+      }
+    }
+    .year {
+      background-color: rgba(255, 255, 255, 0.6);
+      width: 24%;
+      padding: 1px;
+      text-align: center;
+      font-size: 12px;
+    }
+    .mgcero{
+      margin: 0px;
+    }
+    .p-color{
+      color: #219F94;
+    }
+    .p-italic{
+      font-style: italic;
+      font-weight: 400;
+      font-size: 14px;
+    }
+  }
+}
