@@ -32,7 +32,7 @@ const routes: Routes = [
         import ('./components/skills/skills.module').then((m)=> m.SkillsModule)
       },
       {
-        path:'works',
+        path:'projects',
         loadChildren:()=>
         import ('./components/portfolio/portfolio.module').then((m)=> m.PortfolioModule)
       },

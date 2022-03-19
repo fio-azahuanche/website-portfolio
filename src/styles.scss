@@ -14,3 +14,35 @@
 body{
   background-color: black;
 }
+
+.modal-content{
+  background-color: rgba(0, 0, 0, 0.9);
+  color: rgb(228, 226, 226);
+  margin-top: 20%;
+  .modal-header, .modal-footer{
+    .btn-color{
+      background-color: rgb(10, 116, 107);
+      border: none;
+    }
+  }
+  .links {
+    a{
+
+      color: rgb(10, 116, 107);
+      color: rgb(228, 226, 226);
+      i{
+        font-size: 1rem;
+        transition: .4s;
+      }
+    }
+    a:hover {
+      color: rgb(10, 116, 107);
+    }
+  }
+  .modal-body {
+    .sizeFont {
+      font-size: 0.625rem;
+      font-style: italic;
+    }
+  }
+}

@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { PortfolioRoutingModule } from './portfolio-routing.module';
+import { SharedModule } from '../../shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -9,7 +10,8 @@ import { PortfolioRoutingModule } from './portfolio-routing.module';
   ],
   imports: [
     CommonModule,
-    PortfolioRoutingModule
+    PortfolioRoutingModule,
+    SharedModule
   ]
 })
 export class PortfolioModule { }

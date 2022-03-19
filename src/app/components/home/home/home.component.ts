@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  logo: string ='{FA}';
+  logo: string ='<FA/>';
   taghtml: string = '<html>';
   tag_html: string = '</html>';
   tagbody: string = '<body>';
@@ -34,7 +34,7 @@ export class HomeComponent implements OnInit {
       this.router.navigate(['/skills']);
     }
     navigateToPorfolio(){
-      this.router.navigate(['/works']);
+      this.router.navigate(['/projects']);
     }
     navigateToContact(){
       this.router.navigate(['/contact']);
