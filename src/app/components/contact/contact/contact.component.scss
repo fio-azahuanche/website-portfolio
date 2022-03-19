@@ -1,121 +1,38 @@
-.contact {
-  color: white;
-  background: rgba(21, 45, 53, 0.6);
-  margin: 1.25rem 3.75rem 1.25rem 3.75rem;
-  padding: 10px;
-  .line {
-    width: 200px;
-    height: 0;
-    border: 2px solid #219F94;
-  }
-  .tags {
-    color: rgba(255, 255, 255, 0.3);
-    font-family: 'La Belle Aurore';
-  }
-  .mgtagbody{
-    margin-left: 15px;
-  }
-  .mgtag {
-    margin-left: 25px;
-  }
-  .mgtagsection {
-    margin-left: 25px;
-  }
-  .container {
-    h3 {
-      font-weight: 700;
-      font-size: 26px;
-      color: white;
-      span{
-      color: #219F94;
-      }
-    }
-    .info-box {
-      color: #444444;
-      padding: 20px;
-      width: 100%;
-      background: rgba(255, 255, 255, 0.08);
-      i.bx {
-        font-size: 24px;
-        color: #219F94;
-        border-radius: 50%;
-        padding: 14px;
-        float: left;
-        background: rgba(255, 255, 255, 0.1);
-      }
-      h3 {
-        font-size: 20px;
-        color: rgba(255, 255, 255, 0.5);
-        font-weight: 700;
-        margin: 10px 0 8px 68px;
-      }
-      p {
-        padding: 0;
-        color: #fff;
-        line-height: 24px;
-        font-size: 14px;
-        margin: 0 0 0 68px;
-      }
-      .social-links {
-        margin: 5px 0 0 68px;
-        display: flex;
-        a {
-          font-size: 18px;
-          display: inline-block;
-          line-height: 1;
-          margin-right: 12px;
-          transition: 0.3s;
-          i {
-            color: white;
-            border-radius: none;
-            padding: 0px;
-            background:inherit;
-          }
-          i:hover {
-            color: #219F94;
-          }
-        }
-
-      }
-
-
-    }
-
-  }
-
-}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact .php-email-form {
-  padding: 30px;
-  background: rgba(255, 255, 255, 0.08);
+.contact{
+  .php-email-form {
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.08);
+    .error-message {
+      display: none;
+      background: rgba(255, 255, 255, 0.08);
+      background: #ed3c0d;
+      text-align: left;
+      padding: 15px;
+      font-weight: 600;
+    }
+    .error-message br + br {
+      margin-top: 25px;
+    }
+    .sent-message {
+      display: none;
+      background: rgba(255, 255, 255, 0.08);
+      background: #219F94;
+      text-align: center;
+      padding: 15px;
+      font-weight: 600;
+    }
+    .loading {
+      display: none;
+      background: rgba(255, 255, 255, 0.08);
+      text-align: center;
+      padding: 15px;
+    }
+  }
 }
-.contact .php-email-form .error-message {
-  display: none;
-  background: rgba(255, 255, 255, 0.08);
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-.contact .php-email-form .error-message br + br {
-  margin-top: 25px;
-}
-.contact .php-email-form .sent-message {
-  display: none;
-  background: rgba(255, 255, 255, 0.08);
-  background: #219F94;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-.contact .php-email-form .loading {
-  display: none;
-  background: rgba(255, 255, 255, 0.08);
-  text-align: center;
-  padding: 15px;
-}
+
 .contact .php-email-form .loading:before {
   content: "";
   display: inline-block;

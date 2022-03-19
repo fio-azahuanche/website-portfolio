@@ -15,6 +15,155 @@ body{
   background-color: black;
 }
 
+/*--------------------------------------------------------------
+# About & Portfolio
+--------------------------------------------------------------*/
+.about{
+  color: white;
+  background: rgba(21, 45, 53, 0.6);
+  margin: 1.25rem 3.75rem 1.25rem 3.75rem;
+  padding: 10px;
+  img{
+    height: auto;
+    margin-right: 6.25rem;
+  }
+  .about-me , .container{
+    margin-left: 3.125rem;
+    .line {
+      width: 200px;
+      height: 0;
+      border: 2px solid #219F94;
+    }
+    .tags {
+      color: rgba(255, 255, 255, 0.3);
+      font-family: 'La Belle Aurore';
+    }
+    .mgtagbody{
+      margin-left: 15px;
+    }
+    .mgtag {
+      margin-left: 25px;
+    }
+    .content {
+      h3 {
+        font-weight: 700;
+        font-size: 26px;
+        color: white;
+        span{
+        color: #219F94;
+        }
+      }
+      p {
+        color: white;
+        width: 450px;
+        height: 280px;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: justify;
+        span {
+          color: #219F94;
+        }
+      }
+    }
+    .container {
+      h3 {
+        font-weight: 700;
+        font-size: 26px;
+        color: white;
+        span{
+        color: #219F94;
+        }
+      }
+    }
+  }
+}
+
+.contact {
+  color: white;
+  background: rgba(21, 45, 53, 0.6);
+  margin: 1.25rem 3.75rem 1.25rem 3.75rem;
+  padding: 10px;
+  .line {
+    width: 200px;
+    height: 0;
+    border: 2px solid #219F94;
+  }
+  .tags {
+    color: rgba(255, 255, 255, 0.3);
+    font-family: 'La Belle Aurore';
+  }
+  .mgtagbody{
+    margin-left: 15px;
+  }
+  .mgtag {
+    margin-left: 25px;
+  }
+  .mgtagsection {
+    margin-left: 25px;
+  }
+  .container {
+    h3 {
+      font-weight: 700;
+      font-size: 26px;
+      color: white;
+      span{
+      color: #219F94;
+      }
+    }
+    .info-box {
+      color: #444444;
+      padding: 20px;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.08);
+      i.bx {
+        font-size: 24px;
+        color: #219F94;
+        border-radius: 50%;
+        padding: 14px;
+        float: left;
+        background: rgba(255, 255, 255, 0.1);
+      }
+      h3 {
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.5);
+        font-weight: 700;
+        margin: 10px 0 8px 68px;
+      }
+      p {
+        padding: 0;
+        color: #fff;
+        line-height: 24px;
+        font-size: 14px;
+        margin: 0 0 0 68px;
+      }
+      .social-links {
+        margin: 5px 0 0 68px;
+        display: flex;
+        a {
+          font-size: 18px;
+          display: inline-block;
+          line-height: 1;
+          margin-right: 12px;
+          transition: 0.3s;
+          i {
+            color: white;
+            border-radius: none;
+            padding: 0px;
+            background:inherit;
+          }
+          i:hover {
+            color: #219F94;
+          }
+        }
+
+      }
+
+
+    }
+
+  }
+
+}
 .modal-content{
   background-color: rgba(0, 0, 0, 0.9);
   color: rgb(228, 226, 226);
