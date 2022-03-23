@@ -1,10 +1,18 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import {
+  trigger,
+  state,
+  style,
+  animate,
+  transition,
+  // ...
+} from '@angular/animations';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
   logo: string ='<FA/>';
@@ -18,12 +26,14 @@ export class HomeComponent implements OnInit {
   tag_nav: string = '</nav>';
   tagp: string = '<p>';
   tag_p: string = '</p>';
-
+  collapse: boolean = true;
   constructor(public router: Router) { }
 
   ngOnInit(): void {
   }
-
+  navigateToHome(){
+    this.router.navigate(['']);
+  }
     navigateToAbout(){
       this.router.navigate(['/about']);
     }
@@ -40,4 +50,9 @@ export class HomeComponent implements OnInit {
       this.router.navigate(['/contact']);
     }
 
+  isOpen = false;
+
+  toggle():void {
+    this.isOpen = !this.isOpen;
+  }
 }
