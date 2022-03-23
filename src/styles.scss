@@ -564,6 +564,13 @@ body{
       margin-left: 0;
     }
   }
+  .contact{
+    margin: 1.25rem 2rem 1.25rem 2rem !important;
+    padding: 0 !important;
+    .container{
+      margin-left: 0;
+    }
+  }
 
 }
 @media (max-width: 390px) {
@@ -644,6 +651,96 @@ body{
       top: 75% !important;
       right: 0px !important;
     }
+  }
+
+}
+
+@media (max-width: 280px) {
+  main {
+    section {
+      padding: 5px 0px 5px 0px !important;
+      h1{
+        font-weight: 700;
+        font-size: 20px !important;
+        margin-left: 20px;
+      }
+      p{
+        font-size: 16px !important;
+        font-weight: 600;
+        margin-left: 20px;
+        span {
+          border-bottom: 2px solid #219F94;
+        }
+      }
+    }
+    .first-photo {
+      height: 250px !important;
+      top: 62.5%;
+    }
+  }
+  .about{
+    margin: 1rem !important;
+    .about-me {
+      p{
+        margin: 0 20px 15px 20px !important;
+        width: 180px !important;
+      }
+    }
+    img{
+      height: 250px;
+      bottom: -670px !important;
+    }
+  }
+  .resume{
+    margin: 1rem !important;
+    .container{
+      padding: 10px;
+    }
+    .divsummary{
+      margin: 0 !important;
+      .summary{
+        width: 200px !important;
+        line-height: 20px !important;
+        text-align: justify !important;
+        font-size: 12px !important;
+      }
+      ul{
+        font-size: small;
+      }
+    }
+    .education{
+      p{
+        font-size: 12px;
+      }
+      ul{
+        font-size: small;
+      }
+    }
+    .year{
+      width: 40% !important;
+    }
+
+  }
+  .skills{
+    margin: 1rem !important;
+    .container{
+      h3{
+        font-size: 16px !important;
+      }
+    }
+    #photo{
+      width: auto;
+      height: 210px !important;
+      top: 65% !important;
+      right: -18px !important;
+
+    }
+  }
+  .portfolio{
+    margin: 1rem !important;
+  }
+  .contact{
+    margin: 1rem !important;
   }
 
 }
