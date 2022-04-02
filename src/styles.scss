@@ -655,6 +655,15 @@ body{
 
 }
 
+@media (max-width: 320px) {
+  main {
+    .first-photo {
+      height: 200px !important;
+      top: 68%;
+    }
+  }
+}
+
 @media (max-width: 280px) {
   main {
     section {
@@ -676,7 +685,6 @@ body{
     .first-photo {
       height: 200px !important;
       top: 67%;
-      z-index: -1 !important;
     }
   }
   .about{
