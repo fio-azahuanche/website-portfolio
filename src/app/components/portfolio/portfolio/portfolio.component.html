@@ -23,13 +23,26 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
+              <img src="../../../../assets/talktech.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>TalkTech</h4>
+                <p>Chat App</p>
+                <div class="portfolio-links">
+                  <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#talktechModal" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Project Information"><i class='bx bx-plus'></i></a>
+                  <!-- <a (click)="navigate('https://coffeequeen.netlify.app/')" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="" title="Live Demo"><i class="bx bx-link"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
               <img src="../../../../assets/coffeequeen.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Coffee Queen</h4>
                 <p>Web App</p>
                 <div class="portfolio-links">
                   <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#coffequeenModal" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Project Information"><i class='bx bx-plus'></i></a>
-                  <a (click)="navigate('https://coffeequeen.netlify.app/')" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="" title="Live Demo"><i class="bx bx-link"></i></a>
+                  <!-- <a (click)="navigate('https://coffeequeen.netlify.app/')" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="" title="Live Demo"><i class="bx bx-link"></i></a> -->
                 </div>
               </div>
             </div>
@@ -42,7 +55,7 @@
                 <p>Web App</p>
                 <div class="portfolio-links">
                   <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#carepetsModal" class="portfolio-lightbox" title="Project Information"><i class="bx bx-plus"></i></a>
-                  <a (click)="navigate('https://fio-azahuanche.github.io/LIM016-social-network/')" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Live Demo"><i class="bx bx-link"></i></a>
+                  <!-- <a (click)="navigate('https://fio-azahuanche.github.io/LIM016-social-network/')" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Live Demo"><i class="bx bx-link"></i></a> -->
                 </div>
               </div>
             </div>
@@ -70,7 +83,7 @@
                 <p>Library</p>
                 <div class="portfolio-links">
                   <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mdlinksModal" class="portfolio-lightbox" title="Project Information"><i class="bx bx-plus"></i></a>
-                  <a (click)="navigate('https://www.npmjs.com/package/md-links-fioaf')" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Live Demo"><i class="bx bx-link"></i></a>
+                  <!-- <a (click)="navigate('https://www.npmjs.com/package/md-links-fioaf')" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Live Demo"><i class="bx bx-link"></i></a> -->
                 </div>
               </div>
             </div>
@@ -141,6 +154,7 @@
     <span class="tags">{{tag_html}}</span>
   </div>
 </section><!-- End Portfolio Section -->
+<app-talktech-modal></app-talktech-modal>
 <app-coffeequeen-modal></app-coffeequeen-modal>
 <app-carepets-modal></app-carepets-modal>
 <app-dataghibli-modal></app-dataghibli-modal>

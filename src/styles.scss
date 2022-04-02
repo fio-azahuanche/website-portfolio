@@ -674,8 +674,9 @@ body{
       }
     }
     .first-photo {
-      height: 250px !important;
-      top: 62.5%;
+      height: 200px !important;
+      top: 67%;
+      z-index: -1 !important;
     }
   }
   .about{
@@ -733,7 +734,6 @@ body{
       height: 210px !important;
       top: 65% !important;
       right: -18px !important;
-
     }
   }
   .portfolio{
